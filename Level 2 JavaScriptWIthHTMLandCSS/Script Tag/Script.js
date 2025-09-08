@@ -1,18 +1,23 @@
-/* Script tag use to link JavaScripts with html page. 
+/* 
+= Script tag use to link JavaScripts with html page. 
 
-console.log("Use for Print")
+- Placement: Commonly placed in the <head> or just before the closing </body> tag to control when script runs.
 
-console.warn('use for showing warning')
+- External Files: Use src attribute to link external JavaScript files, like 
+-> <script src="script.js"></script>.
 
-console.error('use for show error')
+- Console Methods: log, warn, error, clear.
 
-consol.clear() -> clear consol
+- console.log("Use for Print")
+- console.warn('use for showing warning')
+- console.error('use for show error')
+- consol.clear() -> clear consol
 */
 
 //alert("Showing Warning")
-console.log('Hello Friend');
+//console.log('Hello Friend');
 console.log(2+2);
 console.log('Hello'+' World');
-//console.warn('This is a warning');
+console.warn('This is a warning');
 //console.error('Error Here');
 //console.clear();
