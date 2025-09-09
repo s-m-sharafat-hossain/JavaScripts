@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+hr{
+    height: 2px;
+    background-color: black;
+}
+
+.b1{
+    margin: 5px;
+    height: 50px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.b2{
+    margin: 5px;
+    height: 50px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+#b1{
+    background-color: rgb(8, 134, 92);
+}
+#b2{
+    background-color: lightgreen;
+    border: 0px;
+    border-radius: 15px;
+}
+#b3{
+    background-color: white;
+    width: 200px;
+    padding-bottom: 8px;
+}
