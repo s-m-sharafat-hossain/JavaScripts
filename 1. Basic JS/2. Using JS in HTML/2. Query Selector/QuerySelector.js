@@ -10,9 +10,23 @@
 - Purpose: To interact with or modify webpage element. 
 
 */
+
 console.log("Query Selector\n")
 
-document.getElementById('h1')
+//getElementById
+document.getElementById('B1').onclick = function(){
+    alert("Hello World")
+}
 
-document.getElementsByClassName('p1')
+//getElementByClassName
+document.getElementsByClassName('p1')[0].onclick = function(){
+    location.assign("https://www.google.com")
+}
+
+//querySelector
+document.querySelector('h1').style.color = "red"
+
+
+
+    
 
