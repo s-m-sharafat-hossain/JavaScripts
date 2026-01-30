@@ -14,7 +14,7 @@
 - consol.clear() -> clear consol
 */
 
-//alert("Showing Warning")
+//alert("Stay Here")
 //console.log('Hello Friend');
 console.log(2+2);
 console.log('Hello'+' World');
