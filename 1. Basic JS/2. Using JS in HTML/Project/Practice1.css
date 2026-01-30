@@ -32,12 +32,17 @@ hr{
     background-color: rgb(8, 134, 92);
 }
 #b2{
-    background-color: lightgreen;
+    background-color: rgb(69, 189, 69);
     border: 0px;
     border-radius: 15px;
 }
 #b3{
-    background-color: white;
+    background-color: rgb(20, 172, 113);
     width: 200px;
     padding-bottom: 8px;
+}
+#b4{
+    background-color: rgb(35, 117, 172);
+    width: 150px;
+    border-radius: 15px;
 }
