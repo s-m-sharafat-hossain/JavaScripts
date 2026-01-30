@@ -7,7 +7,7 @@
 
 - querySelector: Finds the first element that matches a CSS selector.
 
-- Purpose: To interact with or modify webpage element.
+- Purpose: To interact with or modify webpage element. 
 
 */
 console.log("Query Selector\n")
