@@ -1,8 +1,10 @@
-
-
 body{
     text-align: center;
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
+    background-image: url("images.jpg");
+    background-repeat: no-repeat;
+    background-size: 60% 400%;
+    background-position: center;
 }
 button{
     color: brown;
