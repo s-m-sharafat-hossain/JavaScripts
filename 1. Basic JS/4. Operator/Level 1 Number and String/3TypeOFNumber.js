@@ -1,5 +1,0 @@
-/*
-Type of Operator:
-
-
-*/
