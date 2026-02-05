@@ -15,3 +15,4 @@ let name= "S M Sharafat Hossain";
 let number2 = 4.5;
 
 console.log(`Number 1: ${number}\nName: ${name}\nNumber 2: ${number2}`)
+

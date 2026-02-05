@@ -18,8 +18,6 @@ document.writeln("<br>");
 document.write(`hi ${45+45} <br>`);
 
 
-
-
             //Write in the console:
 
 console.log("hi");
