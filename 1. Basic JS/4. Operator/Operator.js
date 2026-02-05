@@ -9,21 +9,21 @@
 => Membership operators:     in, includes()
 => Bitwise operators:        &(AND), |(OR), ^(XOR), ~(Not)
 */
+let a = 45;
+let b = 34;
 
 
                 // Arithmetic operators: 
     
 // => +, -, *, /, %, **(Exponentiation)
-let a = 45;
-let b = 34;
 
-console.log(
-  a + b, 
-  a - b, 
-  a * b, 
-  (a / b).toFixed(2), 
-  a % b
-);
+let add = a + b;
+let sub = a - b;
+let mul = a * b;
+let div = a / b;
+let mod = a % b;
+
+console.log(add, sub, mul, div.toFixed(2), mod);
 
 // a**b like a^b (power)
 console.log(2 ** 3);
