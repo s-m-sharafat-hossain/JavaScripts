@@ -23,7 +23,9 @@ let mul = a * b;
 let div = a / b;
 let mod = a % b;
 
-console.log(add, sub, mul, div.toFixed(2), mod);
+//console.log(add, sub, mul, div.toFixed(2), mod);
+
+console.log(`Addition: ${add}\nSubtraction: ${sub}\nMultiplication: ${mul}\nDivision: ${div.toFixed(2)}\nModulus: ${mod}`);
 
 // a**b like a^b (power)
 console.log(2 ** 3);
