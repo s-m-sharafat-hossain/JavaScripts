@@ -127,10 +127,11 @@ console.log("\n\n");
 
                         // Logical operators //        
 
-/* &&(AND), ||(OR), !(NOT)
+/* &&(AND), ||(OR), !(NOT), ??(Nullish Coalescing)
 => && returns true if both conditions are true
 => || returns true if at least one condition is true
 => ! returns the opposite of the condition
+=> ?? returns the right operand if the left operand is null or undefined
 */
 
 a = 6
@@ -145,6 +146,12 @@ if(a > 5 || a < 10){
 if(!(a > 5)){
     console.log(`a is not greater than 5`);
 }
+
+// Nullish Coalescing (??)
+let nullValue = null;
+let defaultValue = "Default";
+let result = nullValue ?? defaultValue;
+console.log(result); // "Default"
 
 console.log("\n\n");
 
