@@ -9,3 +9,8 @@ function myFunction() {
 }
 
 myFunction();
+
+
+/*
+=> Function is a first class citizen.
+*/
