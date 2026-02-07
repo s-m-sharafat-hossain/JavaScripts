@@ -22,6 +22,10 @@ console.info("%cThis is my information", "color: green");
 // console.table() : to show data in table format
 console.table([{name: "Hamim", age: 22, country: "Bangladesh"},{name: "Munim", age: 22, country: "Bangladesh"},{name: "Sharia", age: 22, country: "Bangladesh"}]);
 
+document.getElementById("B3").onclick = function(){
+    console.table([{name: "Hamim", age: 22, country: "Bangladesh"},{name: "Munim", age: 22, country: "Bangladesh"},{name: "Sharia", age: 22, country: "Bangladesh"}]);
+}
+
 
 // console.time() : to show time taken by a code to execute
 console.time("Time 1");
