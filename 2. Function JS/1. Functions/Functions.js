@@ -103,3 +103,19 @@ var add = (num1, num2) => {
     return num1 + num2;
 }
 console.log(add(5, 10));
+
+// we can write arrow function in single line
+const sub = (num1, num2) => num1 - num2;
+console.log(sub(5, 10));
+
+
+/* Immediately Invoked Function Expression (IIFE):
+ -> Function that is executed immediately after it is defined.
+ -> Used to avoid polluting the global scope.
+*/
+
+(function() {
+    console.log("Immediately Invoked Function Expression");
+})();
+
+
