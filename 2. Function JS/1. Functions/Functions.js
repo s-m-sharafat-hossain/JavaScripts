@@ -50,4 +50,56 @@ function sub(num1, num2) {
 console.log(`Subtraction: ${sub(num1, num2)}`);
 
 
+// Function with multiple return values:
 
+function multiReturn(num1, num2) {
+    result = num1 * num2;
+    return result;
+}
+console.log(`Multiplication: ${multiReturn(num1, num2)}`);
+
+
+                // Type of functions:
+
+
+//Named Function:
+// -> Function with a own name.
+
+function namedFunction() {
+    console.log("Named Function");
+}
+namedFunction();
+
+
+
+//Anonymous Function:
+// -> Function without a name. it can call directly.
+
+var anonymousFunction = function() {
+    console.log("Anonymous Function");
+}
+anonymousFunction();
+
+
+// Function Expression:
+// -> Function stored in a variable. Then we can call it using that variable.
+
+var add = function(num1, num2) {
+    return num1 + num2;
+}
+console.log(add(5, 10));
+
+
+
+//Arrow Function:
+// -> Modern syntax for functions. 
+
+var arrowFunction = () => {         // use => to define arrow function
+    console.log("Arrow Function");
+}
+arrowFunction();
+
+var add = (num1, num2) => {
+    return num1 + num2;
+}
+console.log(add(5, 10));
